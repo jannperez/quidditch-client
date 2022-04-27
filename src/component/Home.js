@@ -32,7 +32,7 @@ function Home() {
         <div>
             <h1 color="orange">Top Quidditch Players of Hogwarts</h1>
             <div>
-                <a target="_blank" href="http://github.com/jannperez">My Github</a>
+                <a rel="noreferrer" target="_blank" href="http://github.com/jannperez">My Github</a>
             </div>
             <button onClick={handleClick}>Find Players</button>
             {
