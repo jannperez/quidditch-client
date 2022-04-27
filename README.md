@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+Top Quidditch Players of Hogwarts
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Netlify link: https://whimsical-gumption-da8124.netlify.app/
 
-## Available Scripts
+Heroku link: https://dashboard.heroku.com/apps/quidditch-janet 
+//Heroku Link is not cooperating due to to some minor updates I made
 
-In the project directory, you can run:
+Project Intel:
 
-### `npm start`
+This is a creative project for Harry Potter fans that can create and upload their own Quidditch teams. 
+by having all the intel needed to create their own team, while seeing the current top Quidditch players of Hogwarts.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Main of future Users:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This is for all the Harry Potter fans all over world, and rising fans that will enjoy another piece of the Harry Potter world.
 
-### `npm test`
+Technologies used:
+            Node.js
+            MongoDB/Mongoose
+            Express
+            React
+            
+            
+Wireframe:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://user-images.githubusercontent.com/97927901/165636299-17f6ba13-fb46-4a2a-bb76-6ca519bdd1b8.png)
 
-### `npm run build`
+![image](https://user-images.githubusercontent.com/97927901/165636822-ac850c1e-fd17-4ac5-b62f-705598523cbe.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image](https://user-images.githubusercontent.com/97927901/165636918-d5ca5c0a-2f8b-4d18-8974-c180537cb357.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Component Heirarchy
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+App
+Github button\\ Github page
+Home\\QuidditchPlayerCard\\Post
+PostDelete, Search Players
 
-### `npm run eject`
+Dependencies
+- Backend
+  - Nodemon
+  - Cors
+- Frontend
+  - Axios
+  - React-router-dom
+  - React-router
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Features(MVP)
+-React router
+-Quidditch Player Post
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Epcoming Features(Post MVP)
+-Sign Up/Login
+-functioning API
+-Full CRUD
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
