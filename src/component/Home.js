@@ -1,13 +1,9 @@
-import { useEffect, useState } from "react"
-import { useNavigate } from 'react-router-dom'
+import { useState } from "react"
 import axios from "axios"
 
 function Home() {
-    const navigate = useNavigate();
-
     const [students, setStudents] = useState([])
-    const [clicked, setClicked] = useState(false)
-    const handleClick = () => { setClicked(true); fetchData() }
+    const handleClick = () => { fetchData() }
 
     const deleteStudent = async (id) => {
         try {
