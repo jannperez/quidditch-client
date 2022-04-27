@@ -37,6 +37,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -44,5 +45,15 @@
 
 .details {
   background-color: rgb(198, 139, 22);
- 
+  flex: 0 0 26%;
+  margin: 20px;
+}
+
+.students {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  align-content: start
 }

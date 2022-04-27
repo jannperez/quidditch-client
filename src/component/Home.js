@@ -35,34 +35,37 @@ function Home() {
                 <a rel="noreferrer" target="_blank" href="http://github.com/jannperez">My Github</a>
             </div>
             <button onClick={handleClick}>Find Players</button>
-            {
-                students.map((student) => (
+            <div className="students">
+                {
+                    students.map((student) => (
 
-                    <div className='details' key={student._id}>
+                        <div className='details' key={student._id}>
 
-                        <h2>{student.name}</h2>
-                        <div>
-                            <div>Age: {student.age}</div>
-                            <div>Race: {student.race}</div>
-                            <div>House: {student.house.House_Name}</div>
-                            <div>Teacher: {student.house.Teacher}</div>
-                            <div>Patronus: {student.patronus.protection}</div>
+                            <h2>{student.name}</h2>
+                            <div>
+                                <div>Age: {student.age}</div>
+                                <div>Race: {student.race}</div>
+                                <div>House: {student.house.House_Name}</div>
+                                <div>Teacher: {student.house.Teacher}</div>
+                                <div>Patronus: {student.patronus.protection}</div>
 
-                        </div>
+                            </div>
 
-                        {/* Below will be a palaceholder */}
-                        {/* <div className='details-image'> 
+                            {/* Below will be a palaceholder */}
+                            {/* <div className='details-image'> 
             
             
             {/* created a button to take us to individual player when clicked */}
-                        <div className='player-button'>
-                            <button onClick={(e) => { e.preventDefault(); deleteStudent(student._id) }}>Delete Student</button>
+                            <div className='player-button'>
+                                <button onClick={(e) => { e.preventDefault(); deleteStudent(student._id) }}>Delete Student</button>
+                            </div>
                         </div>
-                    </div>
 
 
-                ))
-            }
+                    ))
+                }
+            </div>
+
 
         </div >
     )
