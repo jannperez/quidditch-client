@@ -37,7 +37,7 @@ function Home() {
             <button onClick={handleClick}>Find Players</button>
             {
                 students.map((student) => (
-                    
+
                     <div className='details' key={student._id}>
 
                         <h2>{student.name}</h2>
