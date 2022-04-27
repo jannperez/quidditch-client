@@ -1,6 +1,10 @@
 .App {
   text-align: center;
+  background-image: url("https://cdn3.whatculture.com/images/2015/11/w3Cbi2So.png");
+  background-size: cover;
+  min-height: 100vh;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -14,7 +18,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #0e295f;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,8 +28,9 @@
   color: white;
 }
 
+
 .App-link {
-  color: #61dafb;
+  color: #2725ab;
 }
 
 @keyframes App-logo-spin {

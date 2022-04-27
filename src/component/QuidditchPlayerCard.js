@@ -6,7 +6,7 @@ const QuidditchPlayerCard = (props) => {
     // setting a variable for the funcion useNavigate to use later in app
     const navigate = useNavigate();
 
-    //Below will be code to set the url for an image inside of our brewery card
+    
     let imageURL = '';
 
     /*QuidditchPlayerInfo.map((el) => {
